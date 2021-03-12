@@ -104,16 +104,17 @@ header .content-wrapper{
   flex-flow: row wrap;
 }
 
+/* Why flex-flow for this one?? */
 header nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: row wrap; 
 }
 
 header nav ul{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -142,6 +143,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /*-- Features Area --*/
@@ -155,6 +157,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /*-- Reviews Area --*/
@@ -162,6 +165,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /*-- ABOUT PAGE --*/
@@ -169,12 +173,14 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /*-- FAQ PAGE --*/
@@ -182,12 +188,14 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq .content-wrapper {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /* ==========================================================================
