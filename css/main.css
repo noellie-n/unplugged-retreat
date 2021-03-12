@@ -87,6 +87,153 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*------- BASE HEADER - FOOTER STYLES -------*/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*------------- MAIN STYLES --------------*/
+
+/*-- Hero Area --*/
+.hero-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-area .content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+aside .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-- Features Area --*/
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-- Reviews Area --*/
+.reviews{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-- ABOUT PAGE --*/
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-- FAQ PAGE --*/
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
