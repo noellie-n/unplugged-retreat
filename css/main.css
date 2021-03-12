@@ -94,61 +94,41 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.footer content{
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.contact{
+footer .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.social {
+footer .social p{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social p{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-  
-.copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+ 
 /*------------- MAIN STYLES --------------*/
 
 /*-- Hero Area --*/
@@ -158,25 +138,7 @@ header nav ul{
   align-items: center;
 }
 
-.hero-area .content-wrapper {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-aside .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.form-description{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.form {
+aside {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,7 +151,7 @@ aside .content-wrapper {
   align-items: center;
 }
 
-.feature-items{
+.features .feature-items{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,12 +159,6 @@ aside .content-wrapper {
 
 /*-- Reviews Area --*/
 .reviews{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.reviews-content{
   display: flex;
   justify-content: center;
   align-items: center;
