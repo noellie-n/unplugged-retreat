@@ -97,6 +97,10 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  margin: 15px 0;
+}
+
 header .content-wrapper{
   display: flex;
   justify-content: center;
@@ -112,17 +116,25 @@ header .header-divider {
 /* Why flex-flow for this one?? */
 header nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap; 
   width: 60%;
+  margin: 15px 0px;
 }
 
 header nav ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 10%;
+  width: 100%;
+}
+
+header nav ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px 0 10px;
 }
 
 footer .content-wrapper {
