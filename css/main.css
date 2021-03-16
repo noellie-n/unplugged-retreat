@@ -102,6 +102,11 @@ header .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
+}
+
+header .header-divider {
+  width: 100%;
 }
 
 /* Why flex-flow for this one?? */
@@ -110,12 +115,19 @@ header nav{
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap; 
+  width: 60%;
 }
 
 header nav ul{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: 10%;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .social-icons {
@@ -160,12 +172,20 @@ aside {
   flex-flow: row wrap;
 }
 
+.features article {
+  width: 52%;
+}
+
 /*-- Reviews Area --*/
 .reviews{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.reviews h3{
+  width: 50%;
 }
 
 /*-- ABOUT PAGE --*/
