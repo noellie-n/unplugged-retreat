@@ -136,20 +136,31 @@ header nav ul{
   width: 100%;
 }
 
+footer {
+  flex-direction: column;
+}
+
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 footer h4 {
+  text-align: center;
+}
+
+footer p{
+  margin: 0;
+  text-align: center;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -159,6 +170,10 @@ footer .social p{
   align-items: center;
 }
  
+footer .copyright{
+  margin: 20px 0;
+}
+
 /*------------- MAIN STYLES --------------*/
 
 /*-- Hero Area --*/
