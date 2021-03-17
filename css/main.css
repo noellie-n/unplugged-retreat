@@ -183,6 +183,7 @@ footer .copyright{
   align-items: center;
 }
 
+/*-- Aside --*/
 aside {
   display: flex;
   justify-content: center;
@@ -190,11 +191,19 @@ aside {
   flex-flow: row wrap;
 }
 
+aside .form-description{
+  margin-bottom: 35px;
+}
+
 /*-- Features Area --*/
 .features {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.features h2 {
+  margin-bottom: 60px;
 }
 
 .features .feature-items{
@@ -205,7 +214,13 @@ aside {
 }
 
 .features article {
-  width: 52%;
+  width: 63%;
+  margin: 30px 0;
+}
+
+.features p {
+  margin: 0;
+  text-align: center;
 }
 
 /*-- Reviews Area --*/
@@ -216,8 +231,17 @@ aside {
   flex-flow: row wrap;
 }
 
+.reviews h2 {
+  margin-bottom: 30px;
+}
+
 .reviews h3{
   width: 50%;
+  margin: 20px 0;
+}
+
+.reviews p {
+  margin: 0;
 }
 
 /*-- ABOUT PAGE --*/
