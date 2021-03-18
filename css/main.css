@@ -489,6 +489,22 @@ aside .form-description{
       width: 38%;
     }
 
+    /*===========================
+           FAQ PAGE           
+    ===========================*/
+
+    .faq .content-wrapper {
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .faq h2 {
+      width: 100%;
+    }
+    .faq-content {
+      flex-basis: 43%;
+    }
+
+
 }
 
 @media only screen and (min-width: 1200px) {
