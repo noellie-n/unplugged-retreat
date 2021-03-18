@@ -421,7 +421,6 @@ aside .form-description{
     justify-content: space-between;
     align-items: flex-start;
   }
-
   footer .contact {
     margin-bottom: 0;
   }
@@ -434,11 +433,9 @@ aside .form-description{
     align-items: flex-start;
     flex-flow: row nowrap;
   }
-
   aside .form-description {
     width: 37.5%;
   }
-
   aside .form {
     width: 45%;
   }
@@ -450,24 +447,47 @@ aside .form-description{
     justify-content: space-between;
     align-items: flex-start;
     flex-flow: row wrap;
-    flex-basis: 30%;
+    flex-basis: 200px;
     margin: 50px;
   }
 
   /* Reviews */
+
   .reviews article {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
   }
-
   .reviews img {
     width: 47%
   }
-
   .reviews .reviews-content {
     width: 50%;
   }
+
+  /*===========================
+           ABOUT PAGE           
+    ===========================*/
+
+    .mission-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .mission-content p {
+      width: 47%;
+    }
+    .contact-section .content-wrapper h2 {
+      width: 100%;
+    }
+    .contact-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .contact-content div{
+      width: 38%;
+    }
 
 }
 
