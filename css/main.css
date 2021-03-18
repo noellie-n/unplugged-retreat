@@ -174,7 +174,7 @@ footer .copyright{
   margin: 20px 0;
 }
 
-/*------------- MAIN STYLES --------------*/
+/*------------- MOBILE VERSION - MAIN STYLES --------------*/
 
 /*-- Hero Area --*/
 
@@ -269,6 +269,7 @@ aside .form-description{
 }
 
 /*------- FAQ PAGE -------*/
+
 .faq {
   display: flex;
   justify-content: center;
@@ -281,6 +282,14 @@ aside .form-description{
   justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
