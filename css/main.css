@@ -386,6 +386,8 @@ aside .form-description{
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
 
+  /* HEADER */
+
   header,
   footer {
     justify-content: space-between;
@@ -406,6 +408,22 @@ aside .form-description{
   }
   header nav ul {
     justify-content: space-between;
+  }
+
+  /* FOOTER */
+
+  footer .content-wrapper {
+    width: 70%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
   }
 
 }
