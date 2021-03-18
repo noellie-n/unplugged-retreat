@@ -385,6 +385,29 @@ aside .form-description{
 
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
+
+  header,
+  footer {
+    justify-content: space-between;
+  }
+  header .content-wrapper {
+    justify-content: space-between;
+  }
+  .header-divider {
+    width: 0%;
+    height: 0;
+    margin: 0;
+  }
+  header a {
+    width: 30%;
+  }
+  header nav {
+    width: 25%;
+  }
+  header nav ul {
+    justify-content: space-between;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
