@@ -386,6 +386,10 @@ aside .form-description{
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
 
+  .content-wrapper {
+    width: 83%;
+  }
+
   /* HEADER */
 
   header,
@@ -411,10 +415,6 @@ aside .form-description{
   }
 
   /* FOOTER */
-
-  footer .content-wrapper {
-    width: 70%;
-  }
   
   .footer-content {
     display: flex;
@@ -424,6 +424,49 @@ aside .form-description{
 
   footer .contact {
     margin-bottom: 0;
+  }
+
+  /* Aside */
+
+  aside .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+  }
+
+  aside .form-description {
+    width: 37.5%;
+  }
+
+  aside .form {
+    width: 45%;
+  }
+
+  /* Features */
+
+  .features article {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 30%;
+    margin: 50px;
+  }
+
+  /* Reviews */
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .reviews img {
+    width: 47%
+  }
+
+  .reviews .reviews-content {
+    width: 50%;
   }
 
 }
