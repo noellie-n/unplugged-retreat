@@ -398,6 +398,7 @@ aside .form-description{
   }
   header .content-wrapper {
     justify-content: space-between;
+    margin: 0 64px;
   }
   .header-divider {
     width: 0%;
@@ -509,6 +510,13 @@ aside .form-description{
 
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
+
+  .content-wrapper {
+    width: 80%;
+  }
+
+
+
 }
 
 /* ==========================================================================
