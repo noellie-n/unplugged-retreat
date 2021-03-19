@@ -174,7 +174,7 @@ footer .copyright{
   margin: 20px 0;
 }
 
-/*--------- MOBILE VERSION - MAIN STYLES ----------*/
+/*------------- MOBILE VERSION - MAIN STYLES --------------*/
 
 /*-- Hero Area --*/
 
@@ -519,13 +519,11 @@ aside .form-description{
     width: 15%;
   }
 
-  /* Hero Area */
+  /* ---------- HOME PAGE ---------- */
 
   .hero-area h1 {
-    width: 55%;
+    width: 70%;
   }
-
-  /* Aside */
 
   aside .content-wrapper {
     justify-content: space-around;
@@ -533,7 +531,19 @@ aside .form-description{
 
   aside .form-description,
   aside .form {
-    width: 27%;
+    width: 33%;
+  }
+
+  /* ---------- ABOUT PAGE ---------- */
+
+  .mission-content p{
+    width: 45%;
+  }
+
+/* ------------ FAQ PAGE ------------ */
+
+  .faq-content {
+    flex-basis: 45%;
   }
 }
 
