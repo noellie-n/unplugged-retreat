@@ -401,9 +401,7 @@ aside .form-description{
     margin: auto;
   }
   .header-divider {
-    width: 0%;
-    height: 0;
-    margin: 0;
+    display: none;
   }
   header a {
     width: 30%;
@@ -417,6 +415,11 @@ aside .form-description{
 
   /* FOOTER */
   
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
+
   .footer-content {
     display: flex;
     justify-content: space-between;
@@ -426,6 +429,12 @@ aside .form-description{
     margin-bottom: 0;
   }
 
+  footer .social-icons a {
+    justify-content: space-around;
+  }
+
+  /* Hero Area */
+  
   /* Aside */
 
   aside .content-wrapper {
@@ -434,12 +443,12 @@ aside .form-description{
     align-items: flex-start;
     flex-flow: row nowrap;
   }
-  aside .form-description {
-    width: 37.5%;
-  }
+  aside .form-description,
   aside .form {
-    width: 45%;
+    width: 40%;
+    margin: 0;
   }
+ 
 
   /* Features */
 
