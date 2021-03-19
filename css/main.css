@@ -398,7 +398,7 @@ aside .form-description{
   }
   header .content-wrapper {
     justify-content: space-between;
-    margin: 0 64px;
+    margin: auto;
   }
   .header-divider {
     width: 0%;
@@ -504,8 +504,6 @@ aside .form-description{
     .faq-content {
       flex-basis: 43%;
     }
-
-
 }
 
 @media only screen and (min-width: 1200px) {
@@ -515,8 +513,28 @@ aside .form-description{
     width: 80%;
   }
 
+  /* HEADER */
 
+  header nav {
+    width: 15%;
+  }
 
+  /* Hero Area */
+
+  .hero-area h1 {
+    width: 55%;
+  }
+
+  /* Aside */
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .form-description,
+  aside .form {
+    width: 27%;
+  }
 }
 
 /* ==========================================================================
