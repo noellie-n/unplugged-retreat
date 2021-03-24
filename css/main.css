@@ -121,6 +121,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   margin: 20px 0;
+  font-weight: 500;
 }
 
 p {
@@ -199,6 +200,7 @@ header nav ul li {
 
 footer {
   flex-direction: column;
+  text-align: center;
 }
 
 footer .content-wrapper {
@@ -206,15 +208,8 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
-footer h4 {
-  text-align: center;
-  color: #e2e3ed;
-}
-
 footer p{
   margin: 0;
-  text-align: center;
-  color: #e2e3ed;
 }
 
 footer .contact {
