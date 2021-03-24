@@ -256,10 +256,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-aside .form-description{
-  margin-bottom: 35px;
+  background-color: #527158;
 }
 
 aside .form {
