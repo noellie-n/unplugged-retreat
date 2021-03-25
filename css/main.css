@@ -683,7 +683,7 @@ input[type=button] {
 
   aside .form-description,
   aside .form {
-    width: 33%;
+    width: 34%;
   }
 
   /* Features */
@@ -696,6 +696,10 @@ input[type=button] {
 
   .reviews h2 {
     margin-bottom: 50px;
+  }
+
+  .reviews .content-wrapper {
+    margin-bottom: 100px;
   }
 
   /* ---------- ABOUT PAGE ---------- */
