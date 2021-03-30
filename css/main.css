@@ -239,7 +239,11 @@ footer .copyright{
 .hero-area{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  background: url('../img/unplugged-hero-image.jpg  ') center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
+  flex-flow: row wrap;
 }
 
 .hero-area h1 {
@@ -291,6 +295,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('../img/features-background-img.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
