@@ -130,11 +130,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -251,6 +251,7 @@ footer .copyright{
   font-weight: 500;
   font-size: 2.25em;
   line-height: 1.2;
+  margin-top: 0;
 }
 
 /*-- Aside --*/
@@ -325,7 +326,6 @@ input[type=button] {
 .reviews{
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
   background-color: #2a423a;
 }
@@ -340,9 +340,6 @@ input[type=button] {
   margin: 20px 0;
 }
 
-.reviews p {
-  margin: 0;
-}
 /*===========================
          ABOUT PAGE 
 ============================*/
@@ -596,13 +593,21 @@ input[type=button] {
   .reviews article {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
   }
-  .reviews img {
-    width: 47%
+  
+  .reviews h2 {
+    width: 85%;
   }
-  .reviews .reviews-content {
-    width: 50%;
+
+  .reviews article figure,
+  .reviews article div {
+    width: 49%;
+    align-items: center;
+  }
+
+  .review h3 {
+    width: 90%;
+    margin-top: 0;
   }
 
   /*===========================
