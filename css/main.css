@@ -368,6 +368,10 @@ input[type=button] {
   margin: 20px 0;
 }
 
+.reviews p {
+  line-height: 1.3;
+}
+
 /*===========================
          ABOUT PAGE 
 ============================*/
@@ -662,6 +666,7 @@ input[type=button] {
   .reviews article {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   
   .reviews h2 {
@@ -675,7 +680,7 @@ input[type=button] {
   }
 
   .review h3 {
-    width: 90%;
+    width: 100%;
     margin-top: 0;
   }
 
