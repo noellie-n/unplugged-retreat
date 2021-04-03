@@ -380,6 +380,10 @@ input[type=button] {
   background-color: #527158;
 }
 
+.mission-content p {
+  line-height: 1.5;
+}
+
 .map figure {
   width: 100%;
   height: 0;
@@ -404,8 +408,14 @@ input[type=button] {
   background-color: #2a423a;
 }
 
+.contact-section h3 {
+  margin-top: 30px;
+  font-size: 1.3125em;
+}
+
 .contact-content p{
   margin: 0;
+  line-height: 1.5;
 }
 
 /*===========================
@@ -692,6 +702,10 @@ input[type=button] {
     }
     .contact-content div{
       width: 38%;
+    }
+
+    .contact-content h3 {
+      font-size: 1.5em;
     }
 
     /*===========================
