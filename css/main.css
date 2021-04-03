@@ -811,6 +811,10 @@ input[type=button] {
     margin-bottom: 100px;
   }
 
+  .reviews article {
+    align-items: flex-start;
+  }
+
   /* ---------- ABOUT PAGE ---------- */
 
   .mission-content p{
