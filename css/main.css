@@ -366,7 +366,6 @@ input[type=button] {
 }
 
 .reviews h3{
-  width: 55%;
   margin: 20px 0;
 }
 
@@ -416,6 +415,7 @@ input[type=button] {
 
 .contact-section h3 {
   margin-top: 30px;
+  margin-bottom: 10px;
   font-size: 1.3125em;
 }
 
@@ -712,9 +712,9 @@ input[type=button] {
       align-items: flex-start;
     }
     .contact-content div{
-      width: 38%;
+      width: 45%;
     }
-
+    
     .contact-content h3 {
       font-size: 1.5em;
     }
